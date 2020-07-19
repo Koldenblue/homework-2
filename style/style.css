@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: linear-gradient(to top left,#ff8a00,#e52e71);
+    background-color: rgb(230, 236, 229);
+}
+
+.box {
+    width:500px;
+    height: 500px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.box1 {
+    background-color: salmon;
+}
+
+.box2 {
+    background-color: springgreen;
+}
+
+.box3 {
+    background-color: violet;
+}
+
+#bass {
+    scale: 50%;
+    height: 25%;
+}
+
+#saskia {
+    scale: 50%;
+    height: 25%;
+
+}
+
+#self {
+    scale: 50%;
+    height: 25%;
+}
+
+
+body {
+    background-color: lawngreen;
+}
