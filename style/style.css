@@ -6,11 +6,6 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    background-color: linear-gradient(to top left,#ff8a00,#e52e71);
-    background-color: rgb(230, 236, 229);
-}
-
 .box {
     width:500px;
     height: 500px;
@@ -21,16 +16,14 @@ body {
     flex-direction: row;
 }
 
-.box1 {
-    background-color: salmon;
-}
 
-.box2 {
-    background-color: springgreen;
-}
-
-.box3 {
-    background-color: violet;
+.box3, .box2, .box1 {
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-color: #F8C9F8;
+    background-attachment: scroll;
+    background-image: linear-gradient(to top, #F8C9F8, #81EED6 );
 }
 
 #bass {
@@ -51,5 +44,28 @@ body {
 
 
 body {
+    height: 100%;
+    margin:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: rgb(94, 97, 92);
+    /* background-image: linear-gradient(to top,#ff8a00, rgb(255, 217, 0),#37e4be,#37e4be);     */
+    background-image: linear-gradient(to top,#ff8a00, #ffe75c,#81EED6,#81EED6);
+    
+}
+
+#nav {
+    position: fixed;
+    background-color: #81EED6;
+    width: 100vw;
+    z-index: 10;
+}
+
+#invisible {
+    visibility: hidden;
+}
+
+.card {
+    margin: 2em;
+    background-color: #D9BFEE;
 }
