@@ -7,19 +7,31 @@ html {
 }
 
 .box {
-    width:500px;
+    /*! width:500px; */
     height: 500px;
 }
+
+/* wrap allows the boxes to stack as the window is resized. Center removes any space between them. */
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     height: auto;
+    flex-wrap: wrap;
+}
+
+.kev
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 
 .box3, .box2, .box1 {
-    height: 100vh;
+    height: auto;
     margin: 0;
     background-repeat: no-repeat;
     background-color: #F8C9F8;
@@ -60,6 +72,11 @@ body {
     background-color: #81EED6;
     width: 100vw;
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 #nav-text:hover {
@@ -83,4 +100,12 @@ body {
 
  #portfolio {
      color : rgb(0, 0, 77)
+ }
+
+ .card {
+     margin-top: 20px;
+ }
+
+ #jumbo {
+     background-color: red;
  }
