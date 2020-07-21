@@ -4,7 +4,6 @@ body {
   margin:0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* background-image: linear-gradient(to top,#ff8a00, rgb(255, 217, 0),#37e4be,#37e4be); */
   background-image: linear-gradient(to top,#ff8a00, #ffe75c,#81EED6,#81EED6);
   
 }
@@ -14,6 +13,7 @@ body {
   background-color: #81EED6;
   width: 100vw;
   z-index: 10;
+  top: 0;
 }
 
 .card {
@@ -21,26 +21,28 @@ body {
   background-color: #D9BFEE;
 }
 
-.kev
-{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    height: auto;
-    flex-wrap: wrap;
-}
 
 #jumbo {
-  margin-top: 75px;
-
+  margin-top: 100px;
+  font-family: 'Audiowide', cursive;
+  
 }
 
+.jumbotron {
+  background-color: #E0EFF5;
+}
+
+/* flex display keeps the cards from overlapping 
+when the screen is reduced in width */
+/* flex-wrap allows the boxes to stack as the window is resized. Center removes any space between them. */
+/* justify-content:center keeps the cards centered as the screen is resized and the content wraps */
+/* background-attachment:fixed makes for no top or bottom box edges on a small screen */
 .box3, .box2, .box1 {
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-color: #F8C9F8;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-image: linear-gradient(to top, #F8C9F8, #81EED6 );
   display: flex;
   justify-content: center;
@@ -49,19 +51,9 @@ body {
   flex-wrap: wrap;
 }
 
-.box {
-  background-image: linear-gradient(to top, #F8C9F8, #81EED6 );
+#portfolio {
+  color : rgb(0, 0, 130)
 }
-
-/* .container {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  height: auto;
-  flex-wrap: wrap;
-} */
-
-
 
 
 
@@ -72,13 +64,6 @@ body {
 *, *::before, *::after {
   box-sizing: inherit;
 } */
-
-/* .box {
-   width:500px;
-  height: 500px;
-} */
-
-/* wrap allows the boxes to stack as the window is resized. Center removes any space between them. */
 
 /* #bass {
   scale: 50%;
