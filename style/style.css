@@ -46,7 +46,6 @@ when the screen is reduced in width */
   display: flex;
   justify-content: center;
   flex-direction: row;
-  height: auto;
   flex-wrap: wrap;
 }
 
@@ -54,9 +53,29 @@ when the screen is reduced in width */
   color : rgb(0, 0, 130)
 }
 
-#astronaut {
+#astronaut, #dance {
   max-width: 30vw;
 }
+
+#psychic{
+  max-width: 25vw;
+}
+
+#psychic-link {
+  color: #975BD7;
+}
+
+#psychic-link:hover {
+  color: #975BD7;
+  background: -webkit-linear-gradient(#b63db6, #0b00a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#psychic-link:visited {
+  color: #117E66;
+}
+
 
 /* html {
   box-sizing: border-box;
