@@ -5,15 +5,15 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: url('../assets/beach2.jpg');
-
 }
 
-.container {
+.container, .container-lg {
   background-image: linear-gradient(to top,#ff8a00, #ffe75c,#81EED6,#81EED6);
   padding:25px;
   margin-top: auto;
   border-radius: 20px;
 }
+
 
 #nav {
   position: fixed;
@@ -74,9 +74,6 @@ when the screen is reduced in width */
 #portfolio {
   color : rgb(0, 0, 130)
 }
-
-
-
 
 #psychic-link {
   color: #975BD7;
