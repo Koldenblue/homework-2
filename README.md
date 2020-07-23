@@ -1,6 +1,8 @@
 # homework-2
-This is my first website portfolio project. The goals were twofold: to create at least the outline of a portfolio webpage, and to practice the use of Bootstrap / CSS. I felt that having an overarching beachy theme really helped the page to come together. Coolers.co was very helpful in choosing the color theme. 
+This is my baseline website portfolio project. The goals were twofold: to create the outline of a portfolio webpage, and to dive into the use of Bootstrap / CSS. I felt that having an overarching beachy theme really helped the page to come together. Coolers.co was very helpful in choosing the color theme. Bootstrap was very helpful for designing a mobile-responsive website.
 
-This webpage does have more work to be done before it can truly be called completed. For example, there are no scripting elements, and the contact form does not function. Pages will be improved with more information, such as a detailed resume and links to coding projects. 
+![image](https://user-images.githubusercontent.com/64618290/88245285-89848b80-cc4b-11ea-9553-3b7d6de7abde.png)
 
-Nevertheless, designing the webpage was good practice and good learning. And perhaps more importantly, I feel this webpage is a good baseline that can be built upon for future work.
+This webpage does have more work to be done before it can truly be called completed. For example, there are no scripting elements, and the contact form does not function. Future work includes improving the pages with more information, such as a detailed resume and links to coding projects. 
+
+Nevertheless, as with many important coding projects, designing the webpage was good practice and a good learning opportunity. And perhaps more importantly, I feel this webpage provides a good baseline that can be built upon for future work.
