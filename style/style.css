@@ -42,6 +42,15 @@ body {
   margin-bottom: 40px;
 }
 
+.btn-primary {
+  background-color: #16A283;
+  border-color: #327D9A;
+}
+
+.btn-primary:hover {
+  background-color: #356fc5;
+}
+
 /* Cards on home page. */
 /* flex display keeps the cards from overlapping 
 when the screen is reduced in width */
