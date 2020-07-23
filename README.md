@@ -1,5 +1,5 @@
 # homework-2
-This is my mobile-responsive website portfolio project. The goals were twofold: to create the outline of a portfolio webpage, and to dive into the use of Bootstrap / CSS for mobile-responsive pages. I felt that having an overarching beachy theme really helped the page to come together. Coolers.co was very helpful in choosing the color theme. Bootstrap was very helpful for designing a mobile-responsive website.
+This is my mobile-responsive website portfolio project. The goals were twofold: to create the outline of a portfolio webpage, and to dive into the use of Bootstrap / CSS for mobile-responsive pages. I felt that having an overarching beachy theme really helped the page to come together. Coolers.co was very helpful in choosing the color theme. Bootstrap was very helpful for designing a mobile-responsive website. Thanks goes to Jesus DeLintt for helping to choose a retro-futuristic font for the cover page. 
 
 ![image](https://user-images.githubusercontent.com/64618290/88245559-758d5980-cc4c-11ea-9ebe-e33b18e5a71f.png)
 
