@@ -7,11 +7,23 @@ body {
   background-image: url('../assets/beach2.jpg');
 }
 
+/* code for adding a video cover */
+/* video {
+  position: fixed;
+  object-fit: cover;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+} */
+
 .container, .container-lg {
-  background-image: linear-gradient(to top,#ff8a00, #ffe75c,#81EED6,#81EED6);
+  /* background-image: linear-gradient(to top, rgba(255, 138, 0, 0.5) rgba(255, 231, 92, 0.5), rgba(129, 238, 214,0.5), rgba(129, 238, 214, 0.5)); */
+  background: rgb(255,138,0);
+  background: linear-gradient(0deg, rgba(255,138,0,0.8) 20%, rgba(255,231,92,0.8) 35%, rgba(129,238,214,0.8) 75%, rgba(129,238,214,0.8) 80%);
   padding:25px;
   margin-top: auto;
   border-radius: 20px;
+  opacity: 0.95;
 }
 
 #nav {
@@ -35,6 +47,7 @@ body {
 .jumbotron {
   background-color: #E0EFF5;
   font-family: 'Audiowide', cursive;
+  opacity: 0.8;
 }
 
 /* Added for container classes to keep from running into the bottom of the pages */
