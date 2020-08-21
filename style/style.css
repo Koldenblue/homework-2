@@ -7,6 +7,7 @@ body {
   background-image: url('../assets/beach2.jpg');
 }
 
+
 /* code for adding a video cover */
 /* video {
   position: fixed;
@@ -16,6 +17,10 @@ body {
   height: 100vh;
 } */
 
+#portfolio-body {
+  background-image: url('../assets/koi.jpg');
+
+}
 .container, .container-lg {
   /* background-image: linear-gradient(to top, rgba(255, 138, 0, 0.5) rgba(255, 231, 92, 0.5), rgba(129, 238, 214,0.5), rgba(129, 238, 214, 0.5)); */
   background: rgb(255,138,0);
@@ -36,7 +41,7 @@ body {
 
 .card {
   margin: 2em;
-  background-color: #D9BFEE;
+  background-color: rgba(217, 191, 238, .7);
 }
 
 /* top margin added to keep from overlap with navbar */
@@ -45,9 +50,9 @@ body {
 }
 
 .jumbotron {
-  background-color: #E0EFF5;
+  background-color: rgba(224, 239, 245, 0.4);
   font-family: 'Audiowide', cursive;
-  opacity: 0.8;
+
 }
 
 /* Added for container classes to keep from running into the bottom of the pages */
