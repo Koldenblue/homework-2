@@ -20,7 +20,7 @@ body {
   background-position: center;
   /* background-image: url('../assets/beach.jpg'); */
 }
-#portfolio-body, #index-body {
+#portfolio-body {
   background-image: url('../assets/koi.jpg');
 }
 
