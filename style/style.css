@@ -17,14 +17,22 @@ body {
 
 #index-body {
   height: auto;
+  background-size: cover;
   background-position: center;
   background-image: url('../assets/beach.jpg');
 }
 #portfolio-body {
+  background-size: cover;
   background-image: url('../assets/koi.jpg');
 }
 
-#about-me-body, #chemistry-body, #contact-body, #pictures-body, #resume-body {
+#resume-body {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/beach-hut.JPG');
+}
+
+#about-me-body, #chemistry-body, #contact-body, #pictures-body {
   background-image: url('../assets/beach2.jpg');
 }
 
