@@ -32,7 +32,24 @@ body {
   background-image: url('../assets/beach-hut.JPG');
 }
 
-#about-me-body, #chemistry-body, #contact-body, #pictures-body {
+#contact-body {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/tidepool.JPG');
+}
+
+#about-me-body {
+  background-size: cover;
+  background-position: center;
+}
+
+#pictures-body {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/shore.JPG');
+}
+
+#about-me-body, #chemistry-body {
   background-image: url('../assets/beach2.jpg');
 }
 
