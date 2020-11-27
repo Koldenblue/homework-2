@@ -16,7 +16,7 @@ cont.addEventListener('submit', (event) => {
   // creates a new element with answer to the input
   let formAnswer = document.createElement('div');
   formAnswer.innerHTML = `<p>Thank you, ${name}! But please visit my <a target='_blank' href='https://kevin-miller-react-portfolio.herokuapp.com/'>real portfolio</a> instead. My up-to-date projects and contact information can be viewed there!</p>`
-    + `<p>For reference, the email that you wrote was:</p>`
+    + `<p>No email was actually sent. For your reference, the email that you wrote was:</p>`
     + `${textField}`;
 
   cont.appendChild(formAnswer)
